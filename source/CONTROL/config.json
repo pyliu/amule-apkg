@@ -1,0 +1,50 @@
+{
+  "general":{
+	"package":"amule",
+	"name":"aMule",
+	"version":"2.3.1-r1",
+	"depends":["python"],
+	"conflicts":[],
+	"developer":"aMule",
+	"maintainer":"MrK",
+	"email":"amule-for-asustor@kupper.org",
+	"website":"http://www.amule.org",
+	"architecture":"##ARCH##",
+	"firmware":"2.0"
+  },
+  "adm-desktop":{
+	"app":{
+	  "type":"custom",
+	  "protocol":"http",
+	  "port":4711,
+	  "url":"/"  
+	},
+	"privilege":{
+	  "accessible":"administrators",
+	  "customizable":true
+	}
+  },
+  "register":{
+	"port":[
+	  "4711",
+	  "4712",
+	  "4662",
+	  "4665",
+	  "4672"
+	],
+ 	"boot-priority":{
+	  "start-order":95,
+	  "stop-order":35
+	},
+	"share-folder": [
+		{
+			"description": "Download default shared folder",
+			"name": "Download"
+		}
+	],
+	"prerequisites":{
+	  "enable-service":[],
+	  "restart-service":[]
+	}
+  }
+}
