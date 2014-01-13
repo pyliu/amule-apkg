@@ -2,8 +2,8 @@
   "general":{
 	"package":"amule",
 	"name":"aMule",
-	"version":"2.3.1-r2",
-	"depends":["python"],
+	"version":"2.3.1-r3",
+	"depends":[],
 	"conflicts":[],
 	"developer":"aMule",
 	"maintainer":"MrK",
