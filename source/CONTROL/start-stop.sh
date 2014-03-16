@@ -10,7 +10,7 @@ export GROUP=administrators
 export STOP_TIMEOUT=10
 
 # Default options for daemon
-export OPTIONS="--full-daemon --config-dir=$PKG_PATH/etc/amule"
+export OPTIONS="--full-daemon --config-dir=$PKG_PATH/etc/"
 
 #export PATH="${PATH:+$PKG_PATH:}/sbin"
 export PATH="${PKG_PATH}/bin:$PATH"
@@ -45,7 +45,6 @@ wait_pid () {
 case "$1" in
     start)
         echo "Starting $NAME"
-
         start_daemon
         ;;
     stop)

@@ -2,7 +2,7 @@
   "general":{
 	"package":"amule",
 	"name":"aMule",
-	"version":"2.3.1-r3",
+	"version":"2.3.1-r4",
 	"depends":[],
 	"conflicts":[],
 	"developer":"aMule",
@@ -26,11 +26,11 @@
   },
   "register":{
 	"port":[
-	  "4711",
-	  "4712",
-	  "4662",
-	  "4665",
-	  "4672"
+	  "T4662",
+	  "U4665",
+	  "U4672",
+	  "T4711",
+	  "T4712"
 	],
  	"boot-priority":{
 	  "start-order":95,

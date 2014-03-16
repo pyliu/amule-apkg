@@ -11,7 +11,7 @@ ToDo
 
 ## TCP and UDP ports ##
 
-Taken from Wikipedia:
+Taken from [Wikipedia](https://en.wikipedia.org/wiki/Amule#TCP_and_UDP_ports):
 
 According to the aMule official FAQ, these are the default ports. Server ports 4661 TCP and 4665 UDP are only used by the EDonkey network. Therefore, the Kad Network will only use 4662 TCP and 4672 UDP. The traffic direction is from client perspective:
 
