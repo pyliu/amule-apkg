@@ -23,5 +23,5 @@ According to the aMule official FAQ, these are the default ports. Server ports 4
 * 4712 TCP: internal Connection port. Used to communicate aMule with other applications such as aMule WebServer or aMuleCMD.
 
 ## How-To create password ##
-echo -n <your password here> | md5sum | cut -d ' ' -f 1\n
+echo -n <your password here> | md5sum | cut -d ' ' -f 1 <br/>
 then replace the Password hash in amule.conf with the one you get above
