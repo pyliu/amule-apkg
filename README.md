@@ -24,3 +24,4 @@ According to the aMule official FAQ, these are the default ports. Server ports 4
 
 ## How-To create password ##
 echo -n <your password here> | md5sum | cut -d ' ' -f 1
+then replace the Password hash in amule.conf with the one you get above
