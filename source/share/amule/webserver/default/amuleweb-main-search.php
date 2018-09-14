@@ -176,8 +176,8 @@ function formCommandSubmit(command)
                   <td align="right">Search type :</td>
                   <td> 
                     <select name="searchtype" id="select">
-                      <option selected>Local</option>
-                      <option>Global</option>
+                      <option>Local</option>
+                      <option selected>Global</option>
                       <option>Kad</option>
                     </select></td>
                   <td>Max Size : </td>
